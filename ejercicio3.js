@@ -42,6 +42,6 @@ let cantidad = parseInt(prompt("Indique la cantidad:"));
 
   
 
-    alert("Precio unitario: "+precioProducto.toFixed(2)+"\nPrecio cantidad: "+(precioProducto*cantidad).toFixed(2)+"\nPrecio descuento: "+descuentoTotal.toFixed(2)+"\nTotal a pagar: "+((precioProducto*cantidad)-descuentoTotal).toFixed(2));
+    document.write("<br>Precio unitario: "+precioProducto.toFixed(2)+"<br>Precio cantidad: "+(precioProducto*cantidad).toFixed(2)+"<br>Precio descuento: "+descuentoTotal.toFixed(2)+"<br>Total a pagar: "+((precioProducto*cantidad)-descuentoTotal).toFixed(2));
 
 }
